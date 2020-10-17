@@ -61,10 +61,18 @@ a {
 
 @media (min-width: 320px) and (max-width: 767px) {
     .content {
-        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+
+    .links > a {
+        font-size: 1em;
+    }
+
+    .links > a + a {
+        margin-left: 0.3em;
     }
 
     .pic > .image {
-        margin: 2em 0;
+        margin: 0 0 1.3em 0;
     }
 }
