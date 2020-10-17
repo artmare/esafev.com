@@ -65,6 +65,10 @@ a {
         flex-direction: column-reverse;
     }
 
+    .links {
+        white-space: nowrap;
+    }
+
     .links > a {
         font-size: 1em;
     }
