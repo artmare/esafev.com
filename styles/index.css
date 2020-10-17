@@ -61,6 +61,7 @@ a {
 
 @media (min-width: 320px) and (max-width: 767px) {
     .content {
+        margin: 1.5rem;
         flex-direction: column-reverse;
     }
 
