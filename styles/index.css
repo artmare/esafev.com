@@ -61,7 +61,7 @@ a {
     margin-left: 0.5em;
 }
 
-.pic {
+.pic > .image {
     margin-left: 2em;
 }
 
@@ -83,7 +83,7 @@ a {
         margin-left: 0.3em;
     }
 
-    .pic {
+    .pic > .image {
         margin: 0 0 1.3em 0;
     }
 }
