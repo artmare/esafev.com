@@ -33,13 +33,13 @@ body {
 
 p {
     color: var(--black-color);
-    font-size: 1.2em;
-    line-height: 1.3em;
+    font-size: 1.1em;
+    line-height: 1.2em;
 }
 
 a {
     color: var(--black-color);
-    font-size: 1.1em;
+    font-size: 1em;
     font-style: italic;
 }
 
