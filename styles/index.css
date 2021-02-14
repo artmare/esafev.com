@@ -43,6 +43,10 @@ a {
     font-style: italic;
 }
 
+i {
+    text-decoration: line-through;
+}
+
 .content {
     display: flex;
     margin: 2em;
