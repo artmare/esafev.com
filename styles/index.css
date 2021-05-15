@@ -58,11 +58,12 @@ i {
 }
 
 .links {
+    display: flex;
     margin-top: 1.3em;
 }
 
 .links > a + a {
-    margin-left: 0.5em;
+    margin-left: 0.8em;
 }
 
 .pic > .image {
@@ -76,15 +77,17 @@ i {
     }
 
     .links {
+        flex-direction: column;
         white-space: nowrap;
     }
 
     .links > a {
+        margin-top: 0.4em;
         font-size: 1em;
     }
 
     .links > a + a {
-        margin-left: 0.3em;
+        margin-left: 0;
     }
 
     .pic > .image {
