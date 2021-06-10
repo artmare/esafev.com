@@ -1,5 +1,5 @@
 :root {
-    --white-color: #ffffff;
+    --gray-color: #f5f5f5;
     --black-color: #000000;
 }
 
@@ -26,7 +26,7 @@
 }
 
 body {
-    background-color: var(--white-color);
+    background-color: var(--gray-color);
     font-family: 'Menoe Grotesque', 'Courier New', Courier, monospace;
     font-size: 16px;
 }
@@ -34,7 +34,8 @@ body {
 p {
     color: var(--black-color);
     font-size: 1.1em;
-    line-height: 1.2em;
+    line-height: 1.3em;
+    letter-spacing: -0.2px;
 }
 
 a {
@@ -101,6 +102,6 @@ i {
     }
 
     a, p {
-        color: var(--white-color);
+        color: var(--gray-color);
     }
 }
