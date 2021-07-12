@@ -46,6 +46,10 @@ a {
     font-style: italic;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 i {
     text-decoration: line-through;
 }
